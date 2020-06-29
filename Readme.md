@@ -8,16 +8,16 @@ For more info please visit: [Codewars](https://www.codewars.com/) .
 Clone git:
 
 ```sh
-    git clone https://github.com/andreacasarella/codewars.git
-    cd codewars
-    npm install
-    npm run test
+    > git clone https://github.com/andreacasarella/codewars.git
+    > cd codewars
+    > npm install
+    > npm run test
 ```
 
 ## Release History
 
 * 0.0.1
-    * Inial Commit
+    * Initial Commit
 
 ## Meta
 
