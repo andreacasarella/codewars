@@ -3,7 +3,6 @@
 
 For more info please visit: [Codewars](https://www.codewars.com/) .
 
-
 ## Installation and Usage
 
 Clone git:

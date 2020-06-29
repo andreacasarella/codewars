@@ -25,9 +25,7 @@
   },
   "homepage": "https://github.com/andreacasarella/codewars#readme",
   "dependencies": {
-    "tslint": "^6.1.2"
-  },
-  "devDependencies": {
+    "tslint": "^6.1.2",
     "@types/jest": "^26.0.3",
     "@types/node": "^14.0.14",
     "jest": "^26.1.0",
