@@ -1,10 +1,13 @@
 {
   "name": "codewars",
+  "jest": {
+    "verbose": true
+  },
   "version": "0.0.1",
   "description": "Codewar Kata's solutions by Andrea Casarella",
   "main": "index.js",
   "scripts": {
-    "test": "npm jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,13 @@
   },
   "homepage": "https://github.com/andreacasarella/codewars#readme",
   "dependencies": {
-    "jest": "^26.1.0"
+    "tslint": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
   }
 }
