@@ -1,0 +1,27 @@
+{
+  "name": "codewars",
+  "version": "0.0.1",
+  "description": "Codewar Kata's solutions by Andrea Casarella",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreacasarella/codewars.git"
+  },
+  "keywords": [
+    "codewars",
+    "codewars-kata-solution",
+    "typescript"
+  ],
+  "author": "Andrea Casarella <andreacasarella@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreacasarella/codewars/issues"
+  },
+  "homepage": "https://github.com/andreacasarella/codewars#readme",
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
+}
