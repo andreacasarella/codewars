@@ -1,35 +1,36 @@
 {
-  "name": "codewars",
-  "jest": {
-    "verbose": true
-  },
-  "version": "0.0.1",
-  "description": "Codewar Kata's solutions by Andrea Casarella",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andreacasarella/codewars.git"
-  },
-  "keywords": [
-    "codewars",
-    "codewars-kata-solution",
-    "typescript"
-  ],
-  "author": "Andrea Casarella <andreacasarella@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andreacasarella/codewars/issues"
-  },
-  "homepage": "https://github.com/andreacasarella/codewars#readme",
-  "dependencies": {
-    "tslint": "^6.1.2",
-    "@types/jest": "^26.0.3",
-    "@types/node": "^14.0.14",
-    "jest": "^26.1.0",
-    "ts-jest": "^26.1.1",
-    "typescript": "^3.9.5"
-  }
+    "name": "codewars",
+    "jest": {
+        "verbose": true
+    },
+    "version": "0.0.1",
+    "description": "Codewar Kata's solutions by Andrea Casarella",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run jest-w",
+        "jest-w": "jest --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andreacasarella/codewars.git"
+    },
+    "keywords": [
+        "codewars",
+        "codewars-kata-solution",
+        "typescript"
+    ],
+    "author": "Andrea Casarella <andreacasarella@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/andreacasarella/codewars/issues"
+    },
+    "homepage": "https://github.com/andreacasarella/codewars#readme",
+    "dependencies": {
+        "tslint": "^6.1.2",
+        "@types/jest": "^26.0.3",
+        "@types/node": "^14.0.14",
+        "jest": "^26.1.0",
+        "ts-jest": "^26.1.1",
+        "typescript": "^3.9.5"
+    }
 }
