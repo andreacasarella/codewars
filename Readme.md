@@ -1,7 +1,7 @@
 # Codewars solutions
 > Here's my solutions for Kata's problem.
 
-For more info please visit: [Codewars](https://www.codewars.com/) .
+For more info please visit: [Codewars](https://www.codewars.com/).
 
 ## Installation and Usage
 
