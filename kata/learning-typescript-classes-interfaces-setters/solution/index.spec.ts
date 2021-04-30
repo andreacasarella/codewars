@@ -2,7 +2,7 @@ import { Cube } from ".";
 
 describe("The Cube class", () => {
     it("should initialize properly and have working getters and setters", () => {
-        var cube = new Cube(1);
+        const cube = new Cube(1);
         expect(cube.length).toEqual(1);
         expect(cube.surfaceArea).toEqual(6);
         expect(cube.volume).toEqual(1);

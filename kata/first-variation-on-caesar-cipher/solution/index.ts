@@ -1,5 +1,3 @@
-import { group } from "console";
-
 export class G964 {
 
     static ALPHABET: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -22,7 +20,7 @@ export class G964 {
         const encodeChar = (aChar: string, aIndex: number, aShift: number): string => {
             if (!(/[a-zA-Z]/g).test(aChar)) return aChar.concat(separator(aIndex));
             let cyperIndex = G964.ALPHABET.split('').indexOf(aChar.toUpperCase()) + aShift + aIndex % G964.ALPHABET.length;
-            while (cyperIndex >= G964.ALPHABET.length) { cyperIndex -= G964.ALPHABET.length };
+            while (cyperIndex >= G964.ALPHABET.length) { cyperIndex -= G964.ALPHABET.length }
             return (aChar == aChar.toLowerCase() ? G964.ALPHABET[cyperIndex].toLowerCase() : G964.ALPHABET[cyperIndex]).concat(separator(aIndex));
         }
 
@@ -41,7 +39,7 @@ export class G964 {
         const decodeChar = (aChar: string, aIndex: number, aShift: number): string => {
             if (!(/[a-zA-Z]/g).test(aChar)) return aChar;
             let cyperIndex = G964.ALPHABET.split('').indexOf(aChar.toUpperCase()) - aShift - aIndex % G964.ALPHABET.length;
-            while (cyperIndex < 0) { cyperIndex += G964.ALPHABET.length };
+            while (cyperIndex < 0) { cyperIndex += G964.ALPHABET.length }
             return aChar == aChar.toLowerCase() ? G964.ALPHABET[cyperIndex].toLowerCase() : G964.ALPHABET[cyperIndex];
         }
         return arr.join('').split('').map((char, index) => decodeChar(char, index, shift)).join('');

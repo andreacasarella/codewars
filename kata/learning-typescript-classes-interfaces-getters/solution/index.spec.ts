@@ -2,7 +2,7 @@ import { Cube, Cuboid } from ".";
 
 describe("class Cuboid", () => {
     it("should initialize properly and have working getters", () => {
-        var cuboid = new Cuboid(1, 2, 3);
+        const cuboid = new Cuboid(1, 2, 3);
         expect(cuboid.length).toEqual(1);
         expect(cuboid.width).toEqual(2);
         expect(cuboid.height).toEqual(3);
@@ -25,7 +25,7 @@ describe("class Cuboid", () => {
 
 describe("class Cube extends Cuboid", () => {
     it("should initialize properly and have the same getters as the parent class", () => {
-        var cube = new Cube(1);
+        const cube = new Cube(1);
         expect(cube.length).toEqual(1);
         expect(cube.width).toEqual(1);
         expect(cube.height).toEqual(1);

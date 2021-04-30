@@ -1,10 +1,10 @@
 import { SingletonCounter } from ".";
 
 describe("The SingletonCounter class", () => {
-    var count = 4;
+    let count = 4;
 
     it("should have correct inc() method", () => {
-        var counter = SingletonCounter.getInstance();
+        const counter = SingletonCounter.getInstance();
         expect(counter.inc()).toEqual(1);
         expect(counter.inc()).toEqual(2);
         expect(counter.inc()).toEqual(3);
@@ -12,8 +12,8 @@ describe("The SingletonCounter class", () => {
     });
 
     it("should work as a singleton", () => {
-        var counter1 = SingletonCounter.getInstance();
-        var counter2 = SingletonCounter.getInstance();
+        const counter1 = SingletonCounter.getInstance();
+        const counter2 = SingletonCounter.getInstance();
         expect(counter1.inc()).toEqual(++count);
         expect(counter2.inc()).toEqual(++count);
         expect(counter1.inc()).toEqual(++count);

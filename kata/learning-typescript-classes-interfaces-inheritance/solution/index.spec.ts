@@ -2,7 +2,7 @@ import { Animal, Cat, Dog, Shark } from ".";
 
 describe("The Animal class", () => {
     it("should construct an object properly", () => {
-        var octopussy = new Animal("Octopussy", 2, 8, 'octopus', "I'm suffering a sting");
+        const octopussy = new Animal("Octopussy", 2, 8, 'octopus', "I'm suffering a sting");
         expect(octopussy.name).toEqual("Octopussy");
         expect(octopussy.age).toEqual(2);
         expect(octopussy.legs).toEqual(8);
@@ -14,14 +14,14 @@ describe("The Animal class", () => {
 
 describe("The Shark class", () => {
     it("should construct an object properly", () => {
-        var billy = new Shark("Billy", 3, "Alive and well");
+        const billy = new Shark("Billy", 3, "Alive and well");
         expect(billy.name).toEqual("Billy");
         expect(billy.age).toEqual(3);
         expect(billy.legs).toEqual(0);
         expect(billy.species).toEqual("shark");
         expect(billy.status).toEqual("Alive and well");
         expect(billy.introduce()).toEqual("Hello, my name is Billy and I am 3 years old.");
-        var charles = new Shark("Charles", 8, "Finding a mate");
+        const charles = new Shark("Charles", 8, "Finding a mate");
         expect(charles.name).toEqual("Charles");
         expect(charles.age).toEqual(8);
         expect(charles.legs).toEqual(0);
@@ -33,14 +33,14 @@ describe("The Shark class", () => {
 
 describe("The Cat class", () => {
     it("should construct an object properly", () => {
-        var cathy = new Cat("Cathy", 7, "Playing with a ball of yarn");
+        const cathy = new Cat("Cathy", 7, "Playing with a ball of yarn");
         expect(cathy.name).toEqual("Cathy");
         expect(cathy.age).toEqual(7);
         expect(cathy.legs).toEqual(4);
         expect(cathy.species).toEqual("cat");
         expect(cathy.status).toEqual("Playing with a ball of yarn");
         expect(cathy.introduce()).toEqual("Hello, my name is Cathy and I am 7 years old.  Meow meow!");
-        var spitsy = new Cat("Spitsy", 6, "sleeping");
+        const spitsy = new Cat("Spitsy", 6, "sleeping");
         expect(spitsy.name).toEqual("Spitsy");
         expect(spitsy.age).toEqual(6);
         expect(spitsy.legs).toEqual(4);
@@ -52,7 +52,7 @@ describe("The Cat class", () => {
 
 describe("The Dog class", () => {
     it("should construct an object properly", () => {
-        var doug = new Dog("Doug", 12, "Serving his master", "Eliza");
+        const doug = new Dog("Doug", 12, "Serving his master", "Eliza");
         expect(doug.name).toEqual("Doug");
         expect(doug.age).toEqual(12);
         expect(doug.legs).toEqual(4);

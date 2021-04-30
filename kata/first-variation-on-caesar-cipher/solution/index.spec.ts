@@ -11,7 +11,7 @@ function dotest3(s: string, k: number) {
 }
 describe("Fixed Tests", function () {
     it("movingShift", function () {
-        var u, sol, v;
+        let u, sol, v;
         u = "I should have known that you would have a perfect answer for me!!!";
         sol = ["J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!"];
         dotest1(u, 1, sol);
@@ -19,7 +19,7 @@ describe("Fixed Tests", function () {
 
 
     it("demovingShift", function () {
-        var u, sol, v;
+        let u, sol, v;
         u = "I should have known that you would have a perfect answer for me!!!";
         sol = ["J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!"];
         dotest1(u, 1, sol);
@@ -27,7 +27,7 @@ describe("Fixed Tests", function () {
     });
 
     it("movingShift, demovingShift", function () {
-        var u, sol, v;
+        let u, sol, v;
         u = "I should have known that you would have a perfect answer for me!!!";
         sol = ["J vltasl rlhr ", "zdfog odxr ypw", " atasl rlhr p ", "gwkzzyq zntyhv", " lvz wp!!!"];
         dotest1(u, 1, sol);
@@ -36,7 +36,7 @@ describe("Fixed Tests", function () {
     });
 
     it("movingShift ACA", function () {
-        var u, sol, v;
+        let u, sol, v;
         u = "ACA";
         sol = ["B", "E", "D", "", ""];
         dotest1(u, 1, sol);
@@ -44,7 +44,7 @@ describe("Fixed Tests", function () {
 
 
     it("movingShift EMPTY", function () {
-        var u, sol, v;
+        let u, sol, v;
         u = "";
         sol = ["", "", "", "", ""];
         dotest1(u, 1, sol);

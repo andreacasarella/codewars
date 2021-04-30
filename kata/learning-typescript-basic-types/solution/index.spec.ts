@@ -10,7 +10,6 @@ import {
   var8NumericArray,
   var9Tuple,
   var10Enum,
-  var11ArrayOfAny,
   var12VoidFunction,
   var13Null,
   var14Undefined,
